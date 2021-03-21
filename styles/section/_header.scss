@@ -1,0 +1,67 @@
+.header{
+ background-image: url(../images/bridge.png);
+ background-size: cover;
+ background-position: left center;
+ color: #ffffff;
+ padding: 20px 0 320px;
+
+  & .header__container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+ }
+
+  & .header__menu{
+    background-image: url(../images/menu-gamburger.png);
+    width: 50px;
+    height: 50px;
+ }
+ & .header__center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .header__title{
+        max-width: 850px;
+        width: 100%;
+        font-size: 64px;
+        line-height: 95px;
+    }
+    & .header__description{
+        font-size: 18px;
+    }
+ }
+ & .header__bottom{
+     padding: 57px 0 57px;
+     background: #F7F7F7;
+     max-width: 1100px;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     color: #000000;
+     position: absolute;
+     left: 25%;
+     top: 45%;
+
+     & .header__bottom-years{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         z-index: 1;
+
+         & .header__bottom-years-span{
+            color: #F7654A;
+            font-size: 72px;
+           
+         }
+         & .header__bottom-years-p{
+            font-size: 36px;
+         }
+         & .header__bottom-years-narinke{
+            font-size: 18px;
+         }
+     }
+
+ }
+}
