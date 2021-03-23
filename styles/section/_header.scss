@@ -4,35 +4,36 @@
  background-position: left center;
  color: #ffffff;
  padding: 20px 0 320px;
+ position: relative;
 
-  & .header__container{
+  &__container{
      display: flex;
      justify-content: space-between;
      align-items: center;
      
- }
-
-  & .header__menu{
+  &__menu{
     background-image: url(../images/menu-gamburger.png);
     width: 50px;
     height: 50px;
  }
- & .header__center{
+
+
+ &__center{
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    & .header__title{
+    &__title{
         max-width: 850px;
         width: 100%;
         font-size: 64px;
         line-height: 95px;
     }
-    & .header__description{
+    &__description{
         font-size: 18px;
     }
  }
- & .header__bottom{
+ &__bottom{
      padding: 57px 0 57px;
      background: #F7F7F7;
      max-width: 1100px;
@@ -42,23 +43,23 @@
      color: #000000;
      position: absolute;
      left: 25%;
-     top: 45%;
+     top: 82%;
 
-     & .header__bottom-years{
+     &-years{
          display: flex;
          flex-direction: column;
          align-items: center;
          z-index: 1;
 
-         & .header__bottom-years-span{
+         &-span{
             color: #F7654A;
             font-size: 72px;
            
          }
-         & .header__bottom-years-p{
+         &-p{
             font-size: 36px;
          }
-         & .header__bottom-years-narinke{
+         &-narinke{
             font-size: 18px;
          }
      }

@@ -1,0 +1,43 @@
+.hero{
+    padding: 250px 0 180px;
+
+    &__red__line{
+        width: 55px;
+        height: 6px;
+        background: #F7654A;
+        margin-top: 45px;
+    }
+
+    &__big__projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 60px;
+    }
+    &__big__projects-item{
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .big__projects__title{
+        margin-top: 15px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #404149;
+    }
+    .big__projects__description{
+        margin-top: 20px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #999999;
+        
+    }
+    
+
+}
