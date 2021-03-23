@@ -60,3 +60,17 @@ button{
     text-align: center;
     color: #404149;
 }
+.btn{
+    max-width: 175px;
+    width: 100%;
+    height: 49px;
+    background: #FFFFFF;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;background-image: url(../images/post.png);
+    background-repeat: no-repeat;
+    background-position: left 14px center;
+    border: none;
+}

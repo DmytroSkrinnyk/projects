@@ -1,0 +1,39 @@
+.answer__container{
+    padding: 150px 0 150px;
+}
+.answer__question{
+    margin-bottom: 50px;
+}
+.answer__container-title{
+    font-size: 24px;
+    color: #F7654A;
+    text-align: start;
+    position: relative;
+    padding-left: 15px;
+
+    &:not(:last-child){
+        margin-bottom: 40px;
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 15px;
+        height: 15px;
+        background: url(../images/triangle.png) no-repeat;
+    }
+    
+}
+.answer__container-description{
+    padding: 30px 0 40px;
+    max-width: 730px;
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
