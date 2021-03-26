@@ -850,4 +850,38 @@ template {
   font-size: 21px;
   color: #F7654A;
 }
+
+.want__work {
+  background: #F7654A;
+  padding: 30px 0 45px;
+}
+
+.want__work__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.want__work__container-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.want__work__container-description {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=main.css.map */

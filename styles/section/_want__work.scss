@@ -1,0 +1,26 @@
+.want__work{
+    background: #F7654A;
+    padding:30px 0 45px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-title{
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+        }
+        &-description{
+         font-family: Oswald;
+         font-style: normal;
+         font-weight: bold;
+        font-size: 24px;
+         color: #FFFFFF;
+        }
+    }
+}
