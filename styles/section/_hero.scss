@@ -1,12 +1,7 @@
 .hero{
     padding: 250px 0 180px;
 
-    &__red__line{
-        width: 55px;
-        height: 6px;
-        background: #F7654A;
-        margin-top: 45px;
-    }
+    
 
     &__big__projects{
         display: flex;
@@ -21,12 +16,23 @@
     }
 
     .big__projects__title{
-        margin-top: 15px;
+        padding-top: 60px;
+        position: relative;;
         font-family: Oswald;
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
         color: #404149;
+
+        &:before{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 55px;
+        height: 6px;
+        background: #F7654A;
+        bottom: 45px;
+        }
     }
     .big__projects__description{
         margin-top: 20px;

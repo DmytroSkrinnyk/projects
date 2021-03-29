@@ -1,124 +1,3 @@
-@font-face {
-  font-family: 'Oswald';
-  src: url("Oswald-Medium.woff2") format("woff2"), url("Oswald-Medium.woff") format("woff"), url("Oswald-Medium.ttf") format("truetype"), url("Oswald-Medium.svg#Oswald-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url("OpenSans-Bold.woff2") format("woff2"), url("OpenSans-Bold.woff") format("woff"), url("OpenSans-Bold.ttf") format("truetype"), url("OpenSans-Bold.svg#OpenSans-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  color: #000000;
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: #ffffff;
-  margin: 0;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.container {
-  max-width: 1110px;
-  margin: 0 auto;
-}
-
-button {
-  outline: none;
-  cursor: pointer;
-}
-
-.font__family-oswald {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: 500;
-  text-align: center;
-}
-
-.font__family-open-sans {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  color: #999999;
-}
-
-.title {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  text-align: center;
-  color: #404149;
-}
-
-.btn {
-  max-width: 175px;
-  width: 100%;
-  height: 49px;
-  background: #FFFFFF;
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  color: #000000;
-  background-image: url(../images/post.png);
-  background-repeat: no-repeat;
-  background-position: left 14px center;
-  border: none;
-}
-
-.footer__h {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  text-align: center;
-  color: #999999;
-  margin-bottom: 25px;
-}
-
-.footer__h4 {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: center;
-  color: #000000;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -462,6 +341,109 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/Oswald-Medium.woff2") format("woff2"), url("../fonts/Oswald-Medium.woff") format("woff"), url("../fonts/Oswald-Medium.ttf") format("truetype"), url("../fonts/Oswald-Medium.svg#Oswald-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+.font__family-oswald {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+}
+
+.font__family-open-sans {
+  font: 400 16px Open Sans;
+  line-height: 22px;
+  color: #999999;
+}
+
+.title {
+  font: 500 36px Oswald;
+  text-align: center;
+  color: #404149;
+}
+
+.footer__h {
+  font: 500 24px Oswald;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 25px;
+}
+
+.footer__h4 {
+  font: 500 24px Oswald;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+
+.btn {
+  max-width: 175px;
+  width: 100%;
+  height: 49px;
+  font: 500 14px Oswald;
+  color: #000000;
+  background: url(../images/post.png) no-repeat 14px center, #ffffff;
+  border: none;
+}
+
 .header {
   background-image: url(../images/bridge.png);
   background-size: cover;
@@ -507,6 +489,7 @@ template {
   width: 100%;
   font-size: 64px;
   line-height: 95px;
+  margin-bottom: 30px;
 }
 
 .header__center .header__description {
@@ -521,11 +504,15 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   color: #000000;
   position: absolute;
-  left: 25%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   top: 82%;
 }
 
@@ -560,13 +547,6 @@ template {
   padding: 250px 0 180px;
 }
 
-.hero__red__line {
-  width: 55px;
-  height: 6px;
-  background: #F7654A;
-  margin-top: 45px;
-}
-
 .hero__big__projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -586,12 +566,23 @@ template {
 }
 
 .hero .big__projects__title {
-  margin-top: 15px;
+  padding-top: 60px;
+  position: relative;
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   color: #404149;
+}
+
+.hero .big__projects__title:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 55px;
+  height: 6px;
+  background: #F7654A;
+  bottom: 45px;
 }
 
 .hero .big__projects__description {
@@ -638,33 +629,12 @@ template {
   color: #FFFFFF;
 }
 
-.btn {
-  max-width: 175px;
-  width: 100%;
-  height: 49px;
-  background: #FFFFFF;
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  color: #000000;
-  background-image: url(../images/post.png);
-  background-repeat: no-repeat;
-  background-position: left 14px center;
-  border: none;
-}
-
-.smart__projects-btn {
-  max-width: 175px;
-  width: 100%;
-  height: 49px;
-}
-
 .buildings__container {
   padding: 150px 0 150px;
 }
 
 .buildings__title {
+  margin-bottom: 66px;
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
@@ -742,6 +712,10 @@ template {
   height: 407px;
 }
 
+.accord:not(:last-child) {
+  margin-bottom: 40px;
+}
+
 .answer__container {
   padding: 150px 0 150px;
 }
@@ -756,6 +730,7 @@ template {
   text-align: start;
   position: relative;
   padding-left: 15px;
+  margin-left: 30px;
 }
 
 .answer__container-title:not(:last-child) {
@@ -774,16 +749,25 @@ template {
   background: url(../images/triangle.png) no-repeat;
 }
 
+.check {
+  display: none;
+}
+
 .answer__container-description {
-  padding: 30px 0 40px;
-  max-width: 730px;
-  width: 100%;
+  display: none;
+}
+
+.answer__container-description {
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #999999;
+}
+
+.check:checked ~ .answer__container-description {
+  display: block;
 }
 
 .partners {
@@ -944,9 +928,9 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -956,6 +940,16 @@ template {
 }
 
 .footer__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 255px;
   width: 100%;
   text-align: center;
@@ -965,7 +959,7 @@ template {
   margin-bottom: 30px;
 }
 
-.footer__h4:hover {
+.footer__a:hover {
   color: #F7654A;
 }
 
